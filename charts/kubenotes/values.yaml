@@ -1,0 +1,6 @@
+replicaCount: 2
+image:
+  repository: ghcr.io/your-username/kubenotes:latest
+  pullPolicy: IfNotPresent
+service:
+  port: 80

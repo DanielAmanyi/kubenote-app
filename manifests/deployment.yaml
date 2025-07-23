@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubenotes
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kubenotes
+  template:
+    metadata:
+      labels:
+        app: kubenotes
+    spec:
+      containers:
+      - name: kubenotes
+        image: ghcr.io/your-username/kubenotes:latest
+        ports:
+        - containerPort: 8080
