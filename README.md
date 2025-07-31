@@ -107,5 +107,12 @@ GET	/notes/{id}	Retrieve a note by ID
 PUT	/notes/{id}	Update a note by ID
 DELETE	/notes/{id}	Delete a note by ID
 
-License
-This project is open source and available under the MIT License.
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## ✍️ Author
+
+**Amanyi D.** – [SupersoniQ](https://github.com/YOUR_GITHUB_USERNAME)
+
+> Built as a portfolio-ready demonstration of core Kubernetes and DevOps practices.
